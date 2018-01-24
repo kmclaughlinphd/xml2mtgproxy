@@ -1,0 +1,3 @@
+I created this a long time ago. The idea was to generate HTML-based printable text-only Magic: the Gathering card proxies to use for playtesting or whatever. You'd provide the complete M:tG card library in XML format, and then give a list of proxies, and the code would spit out some printer friendly XML. Matching was used using Damerau–Levenshtein distance to make spelling not so important. It was never fast enough for my liking, so I never finished it -- it only produces some unformatted plain-text.
+
+XMLs are kinda obsolete these days. JSONs are far easier to work with, and very easy to find (https://mtgjson.com). I probably won't revive this project, but if i did (or you want to) def use JSONs.
